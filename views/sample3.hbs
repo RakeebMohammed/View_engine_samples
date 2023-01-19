@@ -1,0 +1,18 @@
+<body style="background-color:cadetblue;"></body>
+
+<div class="container">
+    <div class="row">
+{{#each contents}}
+   
+<div class="card col-md-6 mb-5 ">
+  <div class="card-header">
+   {{this.one}}
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">{{this.two}}</h4>
+    <p class="card-text">{{this.three}}</p>
+  </div>
+</div>
+{{/each}}
+ </div>
+</div>

@@ -1,0 +1,22 @@
+
+
+
+ <div class="container mt-5 " > 
+    <div class="row">
+
+ {{#each contents}}
+ <div class="col-12  col-sm-6 col-md-3 ">
+ <div class="card " style="width: 18rem;">
+  <img class="card-img-top " style="width:15rem;height:15rem;" src="{{this.image}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title ">{{this.name}}</h5>
+    <p class="card-text">{{this.position}}</p>
+     <p class="card-text">{{this.goals}}</p>
+    <a href="#" class="btn btn-primary">Load more</a>
+  </div>
+</div>
+</div>
+{{/each}}
+</div>
+</div>
+
